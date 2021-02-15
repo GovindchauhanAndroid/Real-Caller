@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20sp"
+    android:id="@+id/pop">
+
+   <androidx.cardview.widget.CardView
+        android:id="@+id/card_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="10dp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130sp"
+            android:background="#9A1A5C">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_baseline_supervisor_account_24" />
+
+            <TextView
+                android:id="@+id/mNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="19dp"
+                android:layout_toRightOf="@+id/image_view"
+                android:text="76565421004"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mNumber"
+                android:layout_marginLeft="18sp"
+                android:layout_toRightOf="@+id/image_view"
+                android:text="You need a 3G/4G or WI-FI connection for Caller ID to function.Please check your connection and try again"
+                android:textColor="#F1E4E4"
+               />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="25sp"
+                android:layout_height="25sp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="8dp"
+                android:background="@drawable/ic_baseline_cancel_24" />
+
+
+        </RelativeLayout>
+
+   </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_view1"
+        android:elevation="10dp"
+        app:cardCornerRadius="10sp">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/card_view2_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:text="+917688002414"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="10dp"
+
+                android:fontFamily="@font/aldrich"
+                android:text="Powered By Yandex India"
+                android:textColor="#2B2B2B"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

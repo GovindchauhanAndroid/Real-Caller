@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Real Caller</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Real Caller</string>
+    <string name="nav_header_subtitle"> YANDEX INDIA</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Call Logs</string>
+    <string name="menu_gallery">Contacts</string>
+    <string name="menu_slideshow">Favorite</string>
+    <string name="share">Share</string>
+    <string name="Help">Help</string>
+</resources>
